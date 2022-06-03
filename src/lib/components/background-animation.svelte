@@ -9,7 +9,7 @@
 				character: characters[i % characters.length],
 				x: Math.random() * 100,
 				y: -40 - Math.random() * 100,
-				r: 0.1 + Math.random() * 1
+				r: 0.6 + Math.random() * 1
 			};
 		})
 		.sort((a, b) => a.r - b.r);
