@@ -2,7 +2,6 @@
   import BackgroundAnimation from "./lib/components/background-animation.svelte";
   import Header from './lib/components/header.svelte';
   import AmountList from './lib/components/amount-list.svelte';
-import Footer from "./lib/components/footer.svelte";
 </script>
 
 <main>
@@ -12,8 +11,6 @@ import Footer from "./lib/components/footer.svelte";
     <Header />
     <AmountList />
   </div>
-  
-  <Footer />
 </main>
 
 <style>
